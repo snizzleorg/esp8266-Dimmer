@@ -6,7 +6,7 @@
 // Update these with values suitable for your network.
 const char* ssid = "SSID";
 const char* password = "PASSWORD";
-const char* mqtt_server = "192.168.178.94";
+const char* mqtt_server = "BROKER_IP";
 const char* topicEncoder = "dial/encoder";
 const char* topicButton = "dial/button";
 char charPos [5];
