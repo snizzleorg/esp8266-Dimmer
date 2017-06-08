@@ -38,6 +38,7 @@ void setup_wifi() {
 
   WiFi.begin(ssid, password);
   WiFi.mode(WIFI_STA);
+  WiFi.hostname("Dimmer");
   while (WiFi.status() != WL_CONNECTED)
   {
     delay(500);
